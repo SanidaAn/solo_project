@@ -1,0 +1,177 @@
+body{
+  /* background-color: rgb(95, 89, 89); */
+  background-color: rgba(95, 89, 89, 0.416);
+
+  font-family: Inter;
+}
+
+/* Container - for all the elements*/
+.container{
+  width: 550px;
+  height: 868px;
+  margin-top:53px;
+  margin-bottom:53px;
+  margin-left:364px;
+  background-color: #23252C;
+  padding: 30px 30px;
+}
+
+/* Card - container for the image/main content/footer*/
+.card{
+  width: 317px;
+  /* height: 868px; */
+  height: 780px;
+  /* background-color: #4966cd; */
+  background-color: #23252C;
+  margin:auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+
+
+.image{
+  width: 317px;
+  height: 317px;
+  /* border-top-radius: 20px;   */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+
+.mainContent{
+  width: 317px;
+  /* height: 399px; */
+  height: 450px;
+  background-color: #1A1B21;
+  position: absolute;
+  color:white;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.titleSecond{
+  color:#F3BF99;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+.titleThird{
+  color:#F5F5F5;
+  line-height: 15px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.button{
+  background-color:#D1D5DB;
+  width:247px;
+  height:34px;
+  top:469px;
+  left:151px;
+  /* padding:9px 13px 9px 13px; */
+  border-radius: 8px;
+/* Gap8px */
+}
+
+.linkTxt{
+  font-weight: 800;
+  font-size: medium;
+}
+
+.txtSecond{
+  /* display: flex; */
+  margin-top: 15px;
+  padding:0 17px 0 17px;
+}
+
+.txtParagraph{
+  text-align: start;
+  padding:0 15px 0 15px;
+}
+
+.txtTitle{
+  text-align: start;
+  padding:0 15px 0 15px;
+  font-weight: 800;
+
+}
+
+.footer{
+  background-color: #161619;
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  top: 760px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+span{
+  /* background-color: #4966cd; */
+  padding:0 10px 0 10px;
+}
+
+ /* unvisited link */
+ /* .link:link {
+  color: red;
+} */
+
+/* visited link */
+.link:visited {
+  color: #918E9B;
+}
+
+/* mouse over link */
+.link:hover {
+  color: #F3BF99;
+}
+
+/* selected link */
+.link:active {
+  color: rgb(134, 134, 236);
+} 
+
+/* ############################################## */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
